@@ -1,0 +1,29 @@
+type: naval
+name: Seahorse
+description: Duo on a boat. Faster than the Risso, but with less firepower.
+speed: 1.5
+flying: false
+health: 280
+armor: 2
+range: 12
+weapons: [
+{
+  name: mounted-duo
+  reload: 17
+  bullet: {
+    damage: 18
+    lifetime: 105
+    speed: 2
+    drawSize: 120
+    hitSize: 80
+  }
+  rotate: true
+  mirror: false
+  recoil: 0.5
+  x: 0
+  y: -3
+  shootX: 0
+  shootY: 1
+  inaccuracy: 2
+}
+]
