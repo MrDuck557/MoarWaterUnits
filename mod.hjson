@@ -1,0 +1,8 @@
+name: "WaterUnits+"
+displayName: "WaterUnits+"
+author: MrDuck557
+description: "Adds 2 new water unit paths"
+version: "1.0"
+minGameVersion: "126.1"
+dependencies: [ ]
+hidden: false
