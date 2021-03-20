@@ -1,0 +1,38 @@
+type: naval
+name: Current
+description: Water nova. Can heal buildings and replenish sheilds.
+speed: 1.1
+flying: false
+health: 340
+armor: 3
+range: 20
+weapons: [
+{
+  name: current-laser
+  reload: 20
+  rotate: true
+  x: 4.4
+  y: -1.5
+  shootEffect: shootHeal
+  recoil: 0.3
+  bullet: {
+    sprite: moar-water-units-current-laser-bullet
+    width: 1
+    height: 8
+    healPercent: 3
+    damage: 20
+    lifetime: 45
+    speed: 3.5
+    collidesTeam: true
+    hitEffect: hitLaser
+  }
+}
+]
+abilities:[
+  {
+    type: ShieldRegenFieldAbility
+    amount: 1
+    max: 200
+    reload: 180
+  }
+]

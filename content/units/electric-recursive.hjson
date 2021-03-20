@@ -1,0 +1,40 @@
+type: mech
+speed: 2
+name: ElectricRecursiveDemo
+description: You ever heard of the recursive cluster from BTD6?
+range: 5
+weapons:[
+{
+  name: taser
+  rotate: true
+  reload: 60
+  bullet:{
+    killShooter: false
+    speed: 1
+    lifetime: 60
+    damage: 60
+    lightning: 3
+    fragBullets: 6
+    hitSize: 40
+    drawSize: 120
+    fragBullet:{
+      speed: 1
+      lifetime: 30
+      damage: 60
+      lightning: 3
+      fragBullets: 8
+      hitSize: 40
+      drawSize: 120
+      fragBullet:{
+        speed: 0.5
+        lifetime: 30
+        damage: 60
+        lightning: 3
+        fragBullets: 6
+        hitSize: 40
+        drawSize: 120
+      }
+    }
+  }
+}
+]

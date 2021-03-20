@@ -18,6 +18,15 @@ plans:[
     metaglass/20
   ]
 }
+{
+  unit: current
+  time: 3600
+  requirements:[
+    silicon/25
+    metaglass/25
+    lead/20
+  ]
+}
 ]
 requirements:[
   copper/150

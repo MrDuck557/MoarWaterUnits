@@ -5,7 +5,7 @@ speed: 1.5
 flying: false
 health: 280
 armor: 2
-range: 12
+range: 27
 weapons: [
 {
   name: mounted-duo
