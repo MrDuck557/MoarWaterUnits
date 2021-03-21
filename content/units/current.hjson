@@ -6,6 +6,7 @@ flying: false
 health: 340
 armor: 3
 range: 20
+research: water-factory+
 weapons: [
 {
   name: current-laser
