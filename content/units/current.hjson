@@ -7,6 +7,9 @@ health: 340
 armor: 3
 range: 20
 research: water-factory+
+itemCapacity: 30
+buildSpeed: 1
+faceTarget: false
 weapons: [
 {
   name: current-laser

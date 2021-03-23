@@ -1,0 +1,25 @@
+type: Reconstructor
+name: Naval Additive Reconstructor
+description: Additive Reconstructor but with my modded units. Literally the same thing.
+size: 3
+research: additive-reconstructor
+researchMultiplier: 0
+category: units
+constructTime: 600
+consumes: {
+  power: 3
+  items: {
+    items: [
+      silicon/40
+      graphite/40
+    ]
+  }
+}
+upgrades: [
+  [seahorse, manta-ray]
+]
+requirements: [
+  copper/200
+  lead/120
+  silicon/90
+]

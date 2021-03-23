@@ -1,0 +1,89 @@
+type: naval
+name: Manta Ray
+description: Two salvos. Sacrifices health for speed. Also will knockback enemies if they get too close.
+speed: 1.3
+flying: false
+health: 450
+armor: 4
+itemCapacity: 50
+research: seahorse
+hitSize: 17
+weapons: [
+{
+  name: salvo-main
+  rotate: true
+  x: 6
+  y: 0
+  reload: 39
+  bullet: {
+    damage: 34.5
+    speed: 3
+    lifetime: 67
+    width: 10
+    height: 14
+  }
+},
+{
+  name: salvo-1
+  rotate: true
+  x: 6
+  y: 0
+  reload: 39
+  firstShotDelay: 4
+  bullet: {
+    damage: 34.5
+    speed: 3
+    lifetime: 67
+    width: 10
+    height: 14
+  }
+},
+{
+  name: salvo-2
+  rotate: true
+  x: 6
+  y: 0
+  reload: 39
+  firstShotDelay: 8
+  bullet: {
+    damage: 34.5
+    speed: 3
+    lifetime: 67
+    width: 10
+    height: 14
+  }
+},
+{
+  name: salvo-3
+  rotate: true
+  x: 6
+  y: 0
+  reload: 39
+  firstShotDelay: 12
+  bullet: {
+    damage: 34.5
+    speed: 3
+    lifetime: 67
+    width: 10
+    height: 14
+  }
+},
+{
+  name: knockback-wave
+  shootCone: 360
+  reload: 180
+  x: 0
+  y: 0
+  mirror: false
+  shots: 36
+  spacing: 10
+  shootX: 0
+  shootY: 0
+  bullet: {
+    lifetime: 24
+    speed: 2
+    damage: 10
+    knockback: 10
+  }
+}
+]
