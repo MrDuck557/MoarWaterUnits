@@ -8,6 +8,7 @@ armor: 2
 range: 27
 research: water-factory+
 itemCapacity: 30
+rotateShooting: false
 weapons: [
 {
   name: mounted-duo

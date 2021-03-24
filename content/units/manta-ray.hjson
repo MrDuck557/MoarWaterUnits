@@ -8,6 +8,7 @@ armor: 4
 itemCapacity: 50
 research: seahorse
 hitSize: 17
+rotateShooting: false
 weapons: [
 {
   name: salvo-main

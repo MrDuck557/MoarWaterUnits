@@ -3,7 +3,7 @@ name: Naval Additive Reconstructor
 description: Additive Reconstructor but with my modded units. Literally the same thing.
 size: 3
 research: additive-reconstructor
-researchMultiplier: 0
+researchCostMultiplier: 0
 category: units
 constructTime: 600
 consumes: {
