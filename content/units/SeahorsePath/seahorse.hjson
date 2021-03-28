@@ -28,3 +28,7 @@ weapons: [
   inaccuracy: 2
 }
 ]
+requirements:[
+  silicon/30
+  metaglass/20
+]

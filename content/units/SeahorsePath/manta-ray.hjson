@@ -88,3 +88,7 @@ weapons: [
   }
 }
 ]
+requirements: [
+  graphite/40
+  silicon/40
+]

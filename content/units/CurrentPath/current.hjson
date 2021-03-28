@@ -19,6 +19,7 @@ weapons: [
   y: -1.5
   shootEffect: shootHeal
   recoil: 0.3
+  range: 19
   bullet: {
     sprite: moar-water-units-current-laser-bullet
     width: 1
@@ -39,4 +40,9 @@ abilities:[
     max: 200
     reload: 180
   }
+]
+requirements:[
+  silicon/25
+  metaglass/25
+  lead/20
 ]
