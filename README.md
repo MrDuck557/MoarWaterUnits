@@ -3,7 +3,7 @@
 
 A water units mod for Mindustry. Adds two new paths.
 
-Currently has two T1 units and the base factory.
+Currently has 4 units, the base factory, and a reconstructor.
 Warning: 1.0 isn't actually the latest release, I just messed up
 
 
