@@ -20,14 +20,14 @@ weapons: [
   x: 0
   y: 0
   mirror: false
-  reload: 25
+  reload: 12
   range: 25
   inaccuracy: 6
   rotate: true
   bullet: {
     type: MissileBulletType
     healPercent: 3
-    damage: 50
+    damage: 35
     speed: 2
     lifetime: 100
     collidesTeam: true
