@@ -2,7 +2,7 @@ name: Riptide
 type: naval
 description: Repair field and heal missile launcher. Also has more health.
 speed: 0.8
-health: 600
+health: 700
 armor: 5
 research: current
 //for no reason, this breaks
@@ -11,7 +11,6 @@ research: current
 //  silicon/40
 //]
 itemCapacity: 50
-buildspeed: 1.2
 rotateShooting: false
 range: 25
 buildSpeed: 1.25
@@ -21,14 +20,14 @@ weapons: [
   x: 0
   y: 0
   mirror: false
-  reload: 10
+  reload: 25
   range: 25
   inaccuracy: 6
   rotate: true
   bullet: {
     type: MissileBulletType
     healPercent: 3
-    damage: 35
+    damage: 50
     speed: 2
     lifetime: 100
     collidesTeam: true
