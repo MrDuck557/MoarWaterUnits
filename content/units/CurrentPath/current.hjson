@@ -41,8 +41,8 @@ abilities:[
     reload: 180
   }
 ]
-requirements:[
-  silicon/25
-  metaglass/25
-  lead/20
-]
+//requirements:[
+//  silicon/25
+//  metaglass/25
+//  lead/20
+//] stop breaking
