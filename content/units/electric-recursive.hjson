@@ -12,27 +12,22 @@ weapons:[
     killShooter: false
     speed: 1
     lifetime: 60
-    damage: 60
+    damage: 25
     lightning: 3
+    lightningDamage: 25
     fragBullets: 6
-    hitSize: 40
-    drawSize: 120
     fragBullet:{
       speed: 1
       lifetime: 30
-      damage: 60
+      damage: 25
       lightning: 3
       fragBullets: 8
-      hitSize: 40
-      drawSize: 120
       fragBullet:{
         speed: 0.5
         lifetime: 30
-        damage: 60
+        damage: 25
         lightning: 3
         fragBullets: 6
-        hitSize: 40
-        drawSize: 120
       }
     }
   }

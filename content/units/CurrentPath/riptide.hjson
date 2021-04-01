@@ -1,0 +1,51 @@
+name: Riptide
+type: naval
+description: Repair field and heal missile launcher. Also has more health.
+speed: 0.8
+health: 700
+armor: 5
+research: current
+//for no reason, this breaks
+//requirements: [
+//  graphite/40
+//  silicon/40
+//]
+itemCapacity: 50
+rotateShooting: false
+range: 25
+buildSpeed: 1.25
+weapons: [
+{
+  name: riptide-heal-launcher
+  x: 0
+  y: 0
+  mirror: false
+  reload: 25
+  range: 25
+  inaccuracy: 6
+  rotate: true
+  bullet: {
+    type: MissileBulletType
+    healPercent: 3
+    damage: 50
+    speed: 2
+    lifetime: 100
+    collidesTeam: true
+    weaveScale: 5
+    weaveMag: 3
+    frontColor: 84f491
+    backColor: 84f491
+    trailColor: 78de83
+    homingPower: 2
+    homingRange: 24
+  }
+}
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    reload: 40
+    range: 30
+    amount: 30
+  }
+]

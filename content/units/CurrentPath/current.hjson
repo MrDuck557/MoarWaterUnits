@@ -7,15 +7,19 @@ health: 340
 armor: 3
 range: 20
 research: water-factory+
+itemCapacity: 30
+buildSpeed: 1
+rotateShooting: false
 weapons: [
 {
   name: current-laser
   reload: 20
   rotate: true
-  x: 4.4
+  x: 4.5
   y: -1.5
   shootEffect: shootHeal
   recoil: 0.3
+  range: 19
   bullet: {
     sprite: moar-water-units-current-laser-bullet
     width: 1
@@ -36,4 +40,9 @@ abilities:[
     max: 200
     reload: 180
   }
+]
+requirements:[
+  silicon/25
+  metaglass/25
+  lead/20
 ]

@@ -7,6 +7,8 @@ health: 280
 armor: 2
 range: 27
 research: water-factory+
+itemCapacity: 30
+rotateShooting: false
 weapons: [
 {
   name: mounted-duo
@@ -15,8 +17,6 @@ weapons: [
     damage: 18
     lifetime: 105
     speed: 2
-    drawSize: 120
-    hitSize: 80
   }
   rotate: true
   mirror: false
@@ -27,4 +27,8 @@ weapons: [
   shootY: 1
   inaccuracy: 2
 }
+]
+requirements:[
+  silicon/30
+  metaglass/20
 ]
