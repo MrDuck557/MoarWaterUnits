@@ -1,0 +1,25 @@
+name: Fallout
+type: flying
+flying: true
+faceTarget: false
+weapons: [
+{
+  name: crackler
+  reload: 360
+  shootCone: 360
+  bullet: {
+    killShooter: false
+    instantDisappear: true
+    fragBullets: 60
+    fragLifeMin: 0
+    fragLifeMax: 1
+    fragBullet: {
+      speed: 0
+      lifetime: 300
+      damage: 20
+      lightning: 3
+      lightningLength: 32
+    }
+  }
+}
+]
