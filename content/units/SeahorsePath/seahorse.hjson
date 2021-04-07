@@ -22,7 +22,7 @@ weapons: [
   mirror: false
   recoil: 0.5
   x: 0
-  y: -3
+  y: -3.5
   shootX: 0
   shootY: 1
   inaccuracy: 2
