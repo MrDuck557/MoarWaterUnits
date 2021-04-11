@@ -5,6 +5,7 @@ Events.on(ContentInitEvent, () => {
     new UnitFactory.UnitPlan(seahorse, 2100, ItemStack.with(Items.silicon, 30, Items.metaglass, 20)),
     new UnitFactory.UnitPlan(current, 3600, ItemStack.with(Items.silicon, 25, Items.metaglass, 25, Items.lead, 20))
   );
+  Blocks.navalFactory.init();
   const mantaRay = Vars.content.getByName(ContentType.unit, "moar-water-units-manta-ray");
   const riptide = Vars.content.getByName(ContentType.unit, "moar-water-units-riptide");
   const seahorseUpgrade = Seq.with(seahorse, mantaRay).toArray(UnitType);
