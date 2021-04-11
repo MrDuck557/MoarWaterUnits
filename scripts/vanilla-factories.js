@@ -7,7 +7,6 @@ Events.on(ContentInitEvent, () => {
   );
   const mantaRay = Vars.content.getByName(ContentType.unit, "moar-water-units-manta-ray");
   const riptide = Vars.content.getByName(ContentType.unit, "moar-water-units-riptide");
-  const seahorseUpgrade = Seq.with(seahorse, mantaRay).toArray(UnitType);
-  const currentUpgrade = Seq.with(current, riptide).toArray(UnitType);
-  Blocks.additiveReconstructor.upgrades.addAll(seahorseUpgrade, currentUpgrade);
+  Blocks.additiveReconstructor.upgrades.addUpgrade(seahorse, mantaRay);
+  Blocks.additiveReconstructor.upgrades.addUpgrade(current, riptide);
 });
