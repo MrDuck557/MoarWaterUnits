@@ -6,9 +6,10 @@ flying: false
 health: 280
 armor: 2
 range: 27
-research: water-factory+
+research: naval-factory
 itemCapacity: 30
 rotateShooting: false
+hitSize: 12
 weapons: [
 {
   name: mounted-duo
@@ -22,7 +23,7 @@ weapons: [
   mirror: false
   recoil: 0.5
   x: 0
-  y: -3.5
+  y: -4.375
   shootX: 0
   shootY: 1
   inaccuracy: 2

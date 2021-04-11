@@ -6,7 +6,7 @@ flying: false
 health: 340
 armor: 3
 range: 20
-research: water-factory+
+research: naval-factory
 itemCapacity: 30
 buildSpeed: 1
 rotateShooting: false
