@@ -6,7 +6,16 @@ flying: false
 health: 450
 armor: 4
 itemCapacity: 50
-research: seahorse
+research: {
+  parent: seahorse
+  requirements: [
+    graphite/2800
+    silicon/2800
+  ]
+  objectives: [
+    additive-reconstructor
+  ]
+}
 hitSize: 17
 rotateShooting: false
 weapons: [
@@ -88,7 +97,3 @@ weapons: [
   }
 }
 ]
-//requirements: [
-//  graphite/40
-//  silicon/40
-//]

@@ -6,7 +6,13 @@ flying: false
 health: 280
 armor: 2
 range: 27
-research: naval-factory
+research:{
+  parent: naval-factory
+  requirements:[
+    silicon/1800
+    metaglass/1200
+  ]
+}
 itemCapacity: 30
 rotateShooting: false
 hitSize: 12
@@ -29,7 +35,3 @@ weapons: [
   inaccuracy: 2
 }
 ]
-//requirements:[
-//  silicon/30
-//  metaglass/20
-//]
