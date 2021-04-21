@@ -20,7 +20,7 @@ weapons: [
       lifetime: 300
       damage: 20
       lightning: 3
-      lightningLength: 10
+      lightningLength: 10//MrDuck557's thing, give credit
       keepVelocity: false
     }
   }

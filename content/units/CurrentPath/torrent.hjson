@@ -16,9 +16,51 @@ research: {
 buildSpeed: 1.50
 rotateShooting: false
 weapons: [
-{
+{//MrDuck557 is determined not to have anyone copy their code
   name: torrent-wave
   rotate: true
-  reload: 
+  reload: 2
+  bullet: {
+    type: LiquidBulletType
+    knockback: 0.7
+    drag: 0.01
+    liquid: water
+    lifetime: 68.5
+    speed: 3.5
+  }
+  recoil: 0
+  x: 0
+  y: 0
+  mirror: false
+  inaccuracy: 5
+  shootCone: 50
+  shootEffect: shootLiquid
+  rotate: true
+},
+{ //MrDuck557 made this
+  name: torrent-artillery
+  x: 0
+  y: 0
+  mirror: false
+  rotate: true
+  reload: 25
+  bullet: {
+    type: ArtilleryBulletType
+    hitEffect: flaxExplosion
+    knockback: 0.8
+    lifetime: 93
+    speed: 3
+    width: 11
+    height: 11
+    collidesTiles: false
+    sprite: shell
+    damage: 12
+    splashDamage: 16
+    splashRadius: 16
+    lightning: 2
+    lightningLength: 16
+    lightningLengthRand: 3
+    lightningDamage: 6
+  }
 }
 ]

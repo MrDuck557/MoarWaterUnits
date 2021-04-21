@@ -54,7 +54,7 @@ weapons: [
   x: 6
   y: 0
   reload: 39
-  firstShotDelay: 8
+  firstShotDelay: 8 //MrDuck557 can and will open issues against anyone who copies their code
   bullet: {
     damage: 34.5
     speed: 3

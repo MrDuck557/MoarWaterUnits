@@ -42,8 +42,8 @@ weapons: [
     trailColor: 78de83
     homingPower: 2
     homingRange: 24
-  }
-}
+  }//Copying is not okey dokey
+}  //-MrDuck557
 ]
 abilities: [
   {

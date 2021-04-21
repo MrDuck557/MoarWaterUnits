@@ -17,7 +17,7 @@ research: {
 itemCapacity: 30
 buildSpeed: 1
 rotateShooting: false
-weapons: [
+weapons: [//MrDuck557 says honk
 {
   name: current-laser
   reload: 20

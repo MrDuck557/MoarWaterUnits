@@ -29,7 +29,7 @@ weapons: [
   inaccuracy: 3
   hitSize: 14
   bullet: {
-    type: BasicBulletType //not sure if this is necessary
+    type: BasicBulletType //not sure if this is necessary                       MrDuck557 didn't ignore this file
     damage: 33
     pierce: true
     pierceCap: 2
