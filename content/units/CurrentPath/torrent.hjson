@@ -7,7 +7,9 @@ health: 900
 research: {
   parent: riptide
   requirements: [
-    
+    silicon/10000
+    titanium/6100
+    metaglass/2800
   ]
   objectives: [
     multiplicative-reconstructor
@@ -15,6 +17,7 @@ research: {
 }
 buildSpeed: 1.50
 rotateShooting: false
+dpsEstimate: 162
 weapons: [
 {//MrDuck557 is determined not to have anyone copy their code
   name: torrent-wave

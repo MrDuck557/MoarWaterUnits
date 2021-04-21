@@ -8,7 +8,9 @@ armor: 5
 research: {
   parent: manta-ray
   requirements: [
-    
+    silicon/10000
+    titanium/6100
+    metaglass/2800
   ]
   objectives: [
     multiplicative-reconstructor
