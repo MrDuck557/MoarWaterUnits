@@ -1,0 +1,71 @@
+name: Airstrike
+type: mech
+targetAir: false
+weapons: [
+{
+  name: flare
+  reload: 420
+  bullet: {
+    lifetime: 120
+    speed: 2
+    scaleVelocity: true
+    collides: false
+    keepVelocity: false
+    despawnEffect: { //target effect
+      type: ParticleEffect
+      lifetime: 360
+      clip: 32
+      particles: 1
+      length: 0
+      baseLength: 0
+      sizeFrom: 8
+      sizeTo: 8
+      region: moar-water-units-crosshairs
+    }
+    fragBullets: 20 //bombs
+    fragVelocityMin: 0
+    fragBullet: {
+      collides: false
+      lifetime: 2
+      speed: 16 //bomb spawn radius
+      sprite: moar-water-units-literally-nothing
+      despawnEffect: none
+      hitEffect: none
+      fragBullets: 1
+      fragLifeMin: 0.3
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      keepVelocity: false
+      fragBullet: {
+        lifetime: 300 //bomb drop delay
+        speed: 0
+        sprite: moar-water-units-literally-nothing
+        despawnEffect: none
+        hitEffect: none
+        collides: false
+        fragBullets: 1
+        fragLifeMin: 1
+        keepVelocity: false
+        fragBullet: { //bomb
+          type: BombBulletType
+          sprite: shell
+          speed: 0
+          damage: 0
+          splashDamage: 27
+          splashDamageRadius: 25
+          collides: false
+          shrinkY: 0.7
+          lifetime: 30
+          keepVelocity: false
+          hitEffect: flakExplosion
+          hitSound: explosion
+          width: 10
+          height: 14
+          status: blasted
+          statusDuration: 60
+        }
+      }
+    }
+  }
+}
+]

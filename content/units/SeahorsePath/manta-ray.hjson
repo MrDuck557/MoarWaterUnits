@@ -6,7 +6,16 @@ flying: false
 health: 450
 armor: 4
 itemCapacity: 50
-research: seahorse
+research: {
+  parent: seahorse
+  requirements: [
+    graphite/2800
+    silicon/2800
+  ]
+  objectives: [
+    additive-reconstructor
+  ]
+}
 hitSize: 17
 rotateShooting: false
 weapons: [
@@ -45,7 +54,7 @@ weapons: [
   x: 6
   y: 0
   reload: 39
-  firstShotDelay: 8
+  firstShotDelay: 8 //MrDuck557 can and will open issues against anyone who copies their code
   bullet: {
     damage: 34.5
     speed: 3
@@ -88,7 +97,3 @@ weapons: [
   }
 }
 ]
-//requirements: [
-//  graphite/40
-//  silicon/40
-//]

@@ -1,7 +1,7 @@
 type: mech
 speed: 2
 name: ElectricRecursiveDemo
-description: You ever heard of the recursive cluster from BTD6?
+description: "You ever heard of the recursive cluster from BTD6?"//MrDuck557's copy paste prevention
 range: 5
 weapons:[
 {

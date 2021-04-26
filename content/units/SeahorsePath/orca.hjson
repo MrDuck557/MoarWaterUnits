@@ -1,0 +1,45 @@
+type: naval
+name: Orca
+description: "Shoots three bullets at a time."
+speed: 1.2
+flying: false
+health: 700
+armor: 5
+research: {
+  parent: manta-ray
+  requirements: [
+    silicon/10000
+    titanium/6100
+    metaglass/2800
+  ]
+  objectives: [
+    multiplicative-reconstructor
+  ]
+}
+rotateShooting: false
+weapons: [
+{
+  name: triple-shot
+  rotate: true
+  x: 0
+  y: 0
+  mirror: false
+  reload: 20
+  shots: 3
+  spacing: 10
+  shootCone: 10
+  inaccuracy: 3
+  hitSize: 14
+  bullet: {
+    type: BasicBulletType //not sure if this is necessary                       MrDuck557 didn't ignore this file
+    damage: 33
+    pierce: true
+    pierceCap: 2
+    speed: 3
+    lifetime: 48
+    knockback: 0.5
+    width: 10
+    height: 14
+  }
+}
+]
