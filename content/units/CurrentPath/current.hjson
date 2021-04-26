@@ -6,11 +6,18 @@ flying: false
 health: 340
 armor: 3
 range: 20
-research: naval-factory
+research: {
+  parent: naval-factory
+  requirements:[
+    silicon/1500
+    metaglass/1500
+    lead/1200
+  ]
+}
 itemCapacity: 30
 buildSpeed: 1
 rotateShooting: false
-weapons: [
+weapons: [//MrDuck557 says honk
 {
   name: current-laser
   reload: 20
@@ -41,8 +48,3 @@ abilities:[
     reload: 180
   }
 ]
-//requirements:[
-//  silicon/25
-//  metaglass/25
-//  lead/20
-//] stop breaking

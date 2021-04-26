@@ -1,0 +1,72 @@
+name: Torrent
+type: naval
+description: "Has a water cannon and electric artillery. Both weapons can heal.\nIDK how the water cannon works lol"
+speed: 0.7
+armor: 7
+health: 900
+research: {
+  parent: riptide
+  requirements: [
+    silicon/10000
+    titanium/6100
+    metaglass/2800
+  ]
+  objectives: [
+    multiplicative-reconstructor
+  ]
+}
+buildSpeed: 1.50
+rotateShooting: false
+dpsEstimate: 162
+weapons: [
+{ //MrDuck557 is determined not to have anyone copy their code
+  name: torrent-wave
+  rotate: true
+  reload: 2
+  bullet: {
+    type: LiquidBulletType
+    knockback: 0.7
+    drag: 0.01
+    liquid: water
+    lifetime: 68.5
+    speed: 3.5
+    maxRange: 240
+  }
+  shootSound: none
+  recoil: 0
+  x: 0
+  y: 0
+  mirror: false
+  inaccuracy: 5
+  shootCone: 50
+  shootEffect: shootLiquid
+  rotate: true
+},
+{ //MrDuck557 made this
+  name: torrent-artillery
+  x: 0
+  y: 0
+  mirror: false
+  rotate: true
+  reload: 25
+  shootSound: bang
+  bullet: {
+    type: ArtilleryBulletType
+    hitEffect: flakExplosion
+    knockback: 0.8
+    lifetime: 93
+    speed: 3
+    width: 11
+    height: 11
+    collidesTiles: false
+    sprite: shell
+    damage: 0
+    splashDamage: 30
+    splashDamageRadius: 16
+    lightning: 2
+    lightningLength: 8
+    lightningLengthRand: 0.2
+    lightningDamage: 8
+  }
+}
+]

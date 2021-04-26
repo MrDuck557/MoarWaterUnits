@@ -11,4 +11,9 @@ Events.on(ContentInitEvent, () => {
   const seahorseUpgrade = Seq.with(seahorse, mantaRay).toArray(UnitType);
   const currentUpgrade = Seq.with(current, riptide).toArray(UnitType);
   Blocks.additiveReconstructor.upgrades.addAll(seahorseUpgrade, currentUpgrade);
+  const orca = Vars.content.getByName(ContentType.unit, "moar-water-units-orca");
+  const torrent = Vars.content.getByName(ContentType.unit, "moar-water-units-torrent");
+  const mantaUpgrade = Seq.with(mantaRay, orca).toArray(UnitType);
+  const riptideUpgrade = Seq.with(riptide, torrent).toArray(UnitType);
+  Blocks.multiplicativeReconstructor.upgrades.addAll(mantaUpgrade, riptideUpgrade)
 });

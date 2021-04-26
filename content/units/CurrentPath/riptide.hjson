@@ -4,12 +4,16 @@ description: Repair field and heal missile launcher. Also has more health.
 speed: 0.8
 health: 700
 armor: 5
-research: current
-//for no reason, this breaks
-//requirements: [
-//  graphite/40
-//  silicon/40
-//]
+research: {
+  parent: current
+  requirements: [
+    graphite/2800
+    silicon/2800
+  ]
+  objectives: [
+    additive-reconstructor
+  ]
+}
 itemCapacity: 50
 rotateShooting: false
 range: 25
@@ -38,8 +42,8 @@ weapons: [
     trailColor: 78de83
     homingPower: 2
     homingRange: 24
-  }
-}
+  }//Copying is not okey dokey
+}  //-MrDuck557
 ]
 abilities: [
   {
