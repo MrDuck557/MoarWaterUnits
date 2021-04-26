@@ -1,0 +1,26 @@
+name: Airstrike
+type: mech
+weapons: [
+{
+  name: flare
+  reload: 60
+  bullet: {//flare
+    lifetime: 60
+    speed: 4
+    scaleVelocity: true
+    collides: false
+    keepVelocity: false
+    despawnEffect: {
+      type: ParticleEffect
+      lifetime: 180
+      clip: 32
+      particles: 1
+      length: 0
+      baseLength: 0
+      sizeFrom: 16
+      sizeTo: 16
+      region: crosshairs
+    }
+  }
+}
+]

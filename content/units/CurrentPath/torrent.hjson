@@ -19,7 +19,7 @@ buildSpeed: 1.50
 rotateShooting: false
 dpsEstimate: 162
 weapons: [
-{//MrDuck557 is determined not to have anyone copy their code
+{ //MrDuck557 is determined not to have anyone copy their code
   name: torrent-wave
   rotate: true
   reload: 2
@@ -30,7 +30,9 @@ weapons: [
     liquid: water
     lifetime: 68.5
     speed: 3.5
+    maxRange: 240
   }
+  shootSound: none
   recoil: 0
   x: 0
   y: 0
@@ -47,9 +49,10 @@ weapons: [
   mirror: false
   rotate: true
   reload: 25
+  shootSound: bang
   bullet: {
     type: ArtilleryBulletType
-    hitEffect: flaxExplosion
+    hitEffect: flakExplosion
     knockback: 0.8
     lifetime: 93
     speed: 3
@@ -57,13 +60,13 @@ weapons: [
     height: 11
     collidesTiles: false
     sprite: shell
-    damage: 12
-    splashDamage: 16
-    splashRadius: 16
+    damage: 0
+    splashDamage: 30
+    splashDamageRadius: 16
     lightning: 2
-    lightningLength: 16
-    lightningLengthRand: 3
-    lightningDamage: 6
+    lightningLength: 8
+    lightningLengthRand: 0.2
+    lightningDamage: 8
   }
 }
 ]
