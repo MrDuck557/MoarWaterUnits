@@ -12,3 +12,5 @@ MrDuck557 #2651 (me) for all the code and current sprite
 CancerGuy #0507 for the duo on the seahorse
 
 Arthur-The-Ok (doesn't have discord) for Manta Ray suggestion
+
+Oh God Not The Belt #1826 for Manta Ray sprite upgrade
