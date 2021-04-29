@@ -1,10 +1,12 @@
 type: naval
 name: Orca
-description: "Shoots three bullets at a time."
+description: "Shoots three bullets at a time. Can boost."
 speed: 1.2
 flying: false
 health: 700
 armor: 5
+canBoost: true
+boostMultiplier: 0.7
 research: {
   parent: manta-ray
   requirements: [
