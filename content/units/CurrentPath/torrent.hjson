@@ -31,6 +31,8 @@ weapons: [
     lifetime: 68.5
     speed: 3.5
     maxRange: 240
+    collidesTeam: true
+    healPercent: 1
   }
   shootSound: none
   recoil: 0
@@ -67,6 +69,7 @@ weapons: [
     lightningLength: 8
     lightningLengthRand: 0.2
     lightningDamage: 8
+    healPercent: 10
   }
 }
 ]
