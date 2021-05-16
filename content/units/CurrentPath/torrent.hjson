@@ -30,7 +30,6 @@ weapons: [
     liquid: water
     lifetime: 68.5
     speed: 3.5
-    maxRange: 240
     collidesTeam: true
     healPercent: 1
   }
