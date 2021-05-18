@@ -1,0 +1,19 @@
+type: LiquidTurret
+localizedName: Energy Drain
+description: Abused heat effects, this is what happened
+size: 3
+reloadTime: 120
+cooldown: 0.1
+shots: 60
+spread: 1
+recoilAmount: 2
+restitution: 0.03
+shootEffect: shootLiquid
+range: 190
+heatColor: ffffffff
+ammoTypes: {
+  cryofluid: heavyCryoShot
+}
+category: turret
+requirements: []
+research: tsunami
